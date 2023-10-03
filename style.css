@@ -1,0 +1,92 @@
+/* * {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+.conatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       height: 100vh;
+
+}
+
+.card {
+    width:  400px;
+    height: 500px;
+    box-shadow: 10px 10px 50px lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+
+
+input {
+   /* margin: 0 0 20px 0 ;  */
+   width: 300px;
+   height: 30px;
+}
+label {
+    margin: 10px 0 0 0 ;
+}
+
+button {
+   background-color: green;
+   outline: none;
+   width: 308px;
+   height: 30px;
+   border: none;
+   color: white;
+ 
+
+}
+
+
+
+
+label {
+     display: grid;
+     justify-content: flex-start;
+      margin: 0 0 0 0;
+
+}
+
+
+h2 {
+   margin: 0 0 35px 0 ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+small {
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin: 0 0 20px 0 ;
+   visibility: hidden;
+}
+
+.form-control.error input {
+   border: 2px solid red;
+
+   
+   
+   
+}
+
+.form-control.error small{
+  visibility: visible;
+} 
+
+
+.form-control.success input{
+   border: 2px solid green;
+   
+}
+
